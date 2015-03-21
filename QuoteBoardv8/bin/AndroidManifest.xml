@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quoteboardv8"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.quoteboardv8.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         
+        
+         <activity
+            android:name="com.example.quoteboardv8.OpenedFromWidget"
+            android:label="Opened From Widget" >
+            <intent-filter>
+                <action android:name="android.intent.action.OPENEDFROMWIDGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!--OpenedFromWidget opens the QuoteLibrary class, so change intent name in
+         OpenedFromWidget class to the correct version!!-->
+          <activity
+            android:name=".QuoteLibrary"
+            android:label="Quote Library" >
+            <intent-filter>
+                <action android:name="com.example.quoteboardv8.QUOTELIBRARY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- this class will be called every time the widget updates, is the class that 
+        extends AppWidgetProvider, within it opens the OpenedFromWidget class -->
+        <receiver
+            android:name=".QuoteBoardWidgetProvider"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_attributes" />
+        </receiver>
+
+       
+    </application>
+
+</manifest>
+

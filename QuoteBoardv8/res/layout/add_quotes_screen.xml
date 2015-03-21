@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote:" />
+
+    <EditText
+        android:id="@+id/etQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="24dp"
+        android:text="Said by:" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:text="Add to Quote Library" />
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:text="View Quote Library" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="16dp"
+        android:text="Enter Row ID:" />
+
+    <EditText
+        android:id="@+id/etRowID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bGetInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Info" />
+
+    <Button
+        android:id="@+id/bStartTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer" />
+
+    <Button
+        android:id="@+id/bSetWidgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Widget Text" />
+
+    <Button
+        android:id="@+id/bModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Entry" />
+
+    <Button
+        android:id="@+id/bDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Entry" />
+
+</LinearLayout>
+
+</ScrollView>

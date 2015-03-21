@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewTrial1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image">Image thumbnail</string>
+    <string name="ui_tabname_1">All</string>
+    <string name="ui_tabname_2">Funny</string>
+    <string name="ui_tabname_3">Wise</string>
+    <string name="ui_tabname_4">TV/Movies</string>
+    
+     <string name="new_quote">New Qutoe</string>
+
+    <string-array name="CharArray">
+        <item>Ron Swanson</item>
+        <item>Leslie Knope</item>
+        <item>April Ludgate</item>
+        <item>Andy Dwyer</item>
+        <item>Ton Haverford</item>
+        <item>Ben Wyatt</item>
+        <item>Chris Traeger</item>
+        <item>Ann Perkins</item>
+        <item>Donna Meagle</item>
+        <item>Jerry Gergich</item>
+    </string-array>
+
+</resources>
