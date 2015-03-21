@@ -17,3 +17,7 @@ Only functions on Android devices. Sorry, Macintosh.
 
 ####Future Functionality
 
+  - Allow user to auto-update widget with "shuffle" setting to display a random quote each day
+  - Tag quote with a category (effectively making quote "playlists")
+  - Upload profile photo for each quote from Contacts or Gallery
+  - Share quotes via social media
