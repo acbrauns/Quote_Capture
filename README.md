@@ -1,7 +1,7 @@
 # Quote Capture
 
 #### A virtual quoteboard for Android
-Quote Capture is an app that allows users to store quotes they like and display them via a homescreen widget. Clicking the widget opens up the user's "quote library" to which new quotes can be added. To put it bluntly: this is the place the keep the ridiculous and hilarious things your friends say.
+Quote Capture is an app that allows users to store quotes they like and display them via a homescreen widget. Clicking the widget opens up the user's "quote library" to which new quotes can be added. To put it bluntly: this is the place to keep the ridiculous and hilarious things your friends say.
 
 There are many apps that have a library of quotes from Mother Teresa, Steve Jobs, and other inspiring people. But this is a place for the everyday quote. For out-of-content phrases, memorable lines from TV, or that one eccentric member of your family. Future functionality will include the option to make the widget automatically display a random quote each day.
 
